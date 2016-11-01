@@ -1,0 +1,24 @@
+<?php
+
+define('GET_GLOBAL_STACK', 0);
+
+define('GET_VARIABLE_NAME', 1);
+define('GET_VARIABLE_VALUE', 2);
+
+define('GET_FUNCTION_NAME', 3);
+define('GET_FUNCTION_ARGUMENT', 4);
+define('GET_FUNCTION_ARGUMENT_NAME', 15);
+define('GET_FUNCTION_ARGUMENT_VALUE', 5);
+define('GET_FUNCTION_PARAMETER', 6);
+define('GET_FUNCTION_STACK', 7);
+define('GET_FUNCTION_RETURN', 8);
+define('GET_FUNCTION_RETURN_TYPE', 16);
+
+define('GET_IF_CONDITION', 9);
+define('GET_IF_CONDITION_STACK', 10);
+
+define('GET_OBJECT_KEY', 11);
+define('GET_OBJECT_VALUE', 12);
+define('GET_ARRAY_VALUE', 13);
+
+define('GET_STATEMENT', 14);
